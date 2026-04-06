@@ -2,6 +2,9 @@
 
 Este projeto é uma cópia da interface da página inicial do Instagram para desktop, contendo um sistema de carrossel de stories, e um feed de postagens.
 
+# Demonstração
+![Demontração do projeto](./clone_instagrao/public/Instagrao-demonstracao.gif)
+
 ## Tecnologias utilizadas
 
 - HTML5;
