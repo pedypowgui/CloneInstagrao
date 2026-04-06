@@ -1,0 +1,190 @@
+:root{
+  --Borda-story: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #d43bab, #e05993);
+}
+
+.Principal{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Stories{
+  width: 100%;
+  margin: 0.3rem 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.StoriesBotaoDireito, .StoriesBotaoEsquerdo{
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.StoriesBotaoDireito{
+  right: 3rem;
+}
+
+.StoriesBotaoEsquerdo{
+  left: 3rem;
+}
+
+.StoriesPerfis{
+  display: flex;
+  transition: 0.5s ease-out;
+}
+
+.FotosStories{
+  gap: 1rem;
+  display: flex;
+  min-width: 100%;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.FotoStory, .Foto_perfil{
+  padding: 3px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+  background: 
+    linear-gradient(#ffffff, #ffffff) padding-box, 
+    var(--Borda-story) border-box;
+}
+
+.FotoStory{
+  width: 5.5rem;
+  height: 5.5rem;
+  border: 0.2rem solid transparent;
+}
+
+.Foto_perfil{
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  border: 0.15rem solid transparent;
+}
+
+.Story{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  flex-direction: column;
+}
+
+.NomeStory{
+  font-size: 12px;
+}
+
+.Feed{
+  gap: 30px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.Feed button:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+
+.Post{
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+}
+
+.Post_header{
+  gap: 10px;
+  display: flex;
+  padding: 0 0.7rem;
+  align-items: center;
+}
+
+.InfosPerfilPost{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NomesPerfilPost{
+  display: flex;
+  flex-direction: column;
+}
+
+.ArrobaPerfilPost, .HoraPostagem{
+  cursor: pointer;
+}
+
+.ArrobaPerfilPost{
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.HoraPostagem{
+  color: gray; 
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.NomePerfilPost{
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.Conteudo_post img{
+  width: 100%;
+  border-radius: 1%;
+}
+
+.Post_footer{
+  display: flex;
+  padding: 0 0.7rem;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.AcoesFooter{
+  display: flex;
+  justify-content: space-between;
+}
+
+.AcoesFooterEsquerda{
+  display: flex;
+  gap: 12px;
+}
+
+.AcoesFooterEsquerda span{
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.AcoesFooterEsquerda div{
+  gap: 7px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.NomePerfilFooterPost{
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.Hashtags, .TextoPost{
+  font-size: 0.9rem;
+}
+
+.Hashtags{  
+  margin: 0;
+  cursor: pointer;
+  padding-top: 1rem;
+  color: rgb(0, 81, 255);
+}
+

@@ -1,0 +1,19 @@
+.App{
+  display: flex;
+  margin-top: 16px;
+}
+
+.Principal{
+  width: 45vw;
+  margin-left: 15vw;
+}
+
+.LateralEsquerda{
+  width: 15vw;
+  height: 96vh;
+  position: fixed;
+}
+
+.LateralDireita{
+  width: 40vw;
+}
